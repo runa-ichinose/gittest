@@ -1,0 +1,35 @@
+
+// bower:scss
+// bower:scss
+// endbower
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.wrapper {
+width: 940px;
+height: 36px;
+background-image: url(../images/5_6_01.gif);
+background-color: #000000;
+background-repeat: repeat;
+}
+.header { 
+    width: 940px;
+	height: 64px;
+	height: auto;
+	background-image:url(../images/5_6_04.gif);
+	background-color: #000000;
+	img {
+	float:left;
+	ul {
+	float: left;
+	li {
+	list-style-type: none;
+	
+	}
+	}
+	}
+	}

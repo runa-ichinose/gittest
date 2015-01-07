@@ -1,0 +1,45 @@
+
+$default-width: 940px;
+$default-font-side:12px;	
+
+
+body{
+	
+	background-color:#ffffff;
+}
+
+ 
+
+
+
+
+
+
+
+
+@mixin my-button($color) {
+$dark-color: darken($color, 10);
+padding: 20px;
+background: linear-gradient($color, $dark-color);
+color: white;
+text-decoration: none;
+border-radius: 5px;
+&:hover {
+$light-color: lighten($color, 10);
+$light-dark-color: lighten($dark-color, 10);
+background: linear-gradient($light-color, $light-dark-color);
+}
+}
+ 
+a.custom-btn {
+@include my-button($default-theme-color);
+}
+ 
+a.custom-btn-2 {
+@include my-button(red);
+
+}
+a.custom-btn-3 {
+@include my-button(black);
+}
+
