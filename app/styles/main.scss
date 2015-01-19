@@ -47,45 +47,31 @@ height:40px;
 
 #mainpic{
 margin-top:2em;
+margin-bottom:1em;
 width:900px;
 height:600px;
 }
 
-#mainpic2{
+#mainpic2box {
 width:900px;
-height:250px;
-margin-top:3em;
+height:60px;
+border-style:none;
+border-width:none;
+background-repeat:no-repeat;
+margin:0 1em 0 1em;
 background-image:url("../images/bg_top_banners.gif");
-background-repeat:repeat;
+background:repeat;
+a{
+float:left;
+}
 }
 
-
-
-
-
-
-.browsehappy { 
-  margin: 0.2em 0;
-  background: #000;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* Space out content a bit */
-
-
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* ******************************************************* */
 .clearfix {
   min-height: 1px;
 }
 .clearfix:after {
-  content: ".";  /* êVÇµÇ¢óvëfÇçÏÇÈ */
-  display: block;  /* ÉuÉçÉbÉNÉåÉxÉãóvëfÇ… */
+  content: ".";  
+  display: block;  
   clear: both;
   height: 0;
   visibility: hidden;
@@ -97,7 +83,6 @@ body {
   overflow: hidden;
   /**/
 }
-/* ********************************************************* */
 
 
 .float-left {
@@ -112,7 +97,6 @@ body {
 	float:left;
 	background-image: url(../images/subcolumn_bg.gif);
 	background-repeat: repeat-y;
-	width: 440px;
 	margin-left: 20px;
 }
 
@@ -123,47 +107,12 @@ body {
 	width: 440px;
 }
 
-#information-header_2 {
-	float: right;
-	margin-top: 5px;
-}
-
-#information-header_2 img {
-	margin-right: 10px;
-	margin-left: 5px;
-}
-
 #information-main {
 	background-image: url(../images/subcolumn_bg.gif);
 	background-repeat: repeat-y;
 	width: 440px; 
-//	padding-left: 10px;
-//	padding-right: 20px;
-}
-
-#information-main ul li{
-	font-size: 12px;
-}
-
-#information-main-item {
-	border-bottom-width: 5px;
-	border-bottom-style: solid;
-	border-bottom-color: #0F0;
-}
-
-#information-main-item ul {
-	padding-left:0px;
-//	padding-right:10px;
-	margin-left:10px;
-	margin-right:10px;
-}
-
-#information-main-item li {
-//	float: left;
-	list-style:none;
-}
-
-#information-main p {
+	height:38px;
+p {
 	background-image: url(../images/green_square_arrow.gif);
 	background-repeat: no-repeat;
 	background-position:10px 8px;
@@ -179,9 +128,42 @@ body {
 	padding-top:5px;
 	padding-left:30px;
 	padding-bottom:5px;
-	
-	
+
 }
+}
+
+#information-main-item {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #0F0;
+}
+
+#information-main-item ul {
+	padding-left:0px;
+	padding-right:10px;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+
+#information-main-item li {
+	list-style:none;
+}
+
+.floatleft {	
+	float:left;
+}
+
+#information-header_2 {
+	float: right;
+	margin-top: 5px;
+}
+
+#information-header_2 img {
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
 
 
 
@@ -208,11 +190,6 @@ body {
 }
 
 
-
-
-
-
-
 #information-footer {
 	background-image: url(../images/subcolumn_bottom.gif);
 	background-repeat: no-repeat;
@@ -221,3 +198,65 @@ body {
 
 //	padding-top: 50px;
 }
+
+
+
+
+
+
+#flobox {
+	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic"
+	color: #FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: #005027;
+	border-right-color: #005027;
+	border-bottom-color: #005027;
+	border-left-color: #005027;
+	text-align: center;
+	width: 100%;
+	font-size: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 16px;
+	background-color: #005027;
+	height: 16px;
+	clear: both;
+	margin-bottom: 8px;
+.flobox p {
+	font-family: "?q???M?m?p?S Pro W3", "Hiragino Kaku Gothic Pro", "???C???I", Meiryo, Osaka, "?l?r ?o?S?V?b?N", "MS PGothic", sans-serif;
+	font-size: 10px;
+	line-height: normal;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+}
+.img9 {
+	float: left;
+	width: 900px;
+	margin:auto;
+	white-space: nowrap;
+}
+#footer .img9 img {
+	float: left;
+	margin-right: 6px;
+	margin-left: 6px;
+	margin-bottom: 24px;
+}
+#fcontainer {
+	width: 100%;
+	_width: 1000px;
+	padding-left: 166px;
+	_padding-left:16px;
+	padding-top: 8px;
+}
+.bottom6 {
+	margin-top: -4px;
+}
+
+
